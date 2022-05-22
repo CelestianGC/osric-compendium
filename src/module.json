@@ -1,0 +1,79 @@
+{
+  "name": "osric-compendium",
+  "title": "OSRIC Compendium",
+  "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "9",
+  "author": "John Smith",
+  "authors": [
+    {
+      "name": "John Smith"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "OSRIC Compendium",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "OSRIC Compendium",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "OSRIC Compendium",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "OSRIC Compendium",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "OSRIC Compendium",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    },
+    {
+      "name": "macros",
+      "label": "OSRIC Compendium",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "playlists",
+      "label": "OSRIC Compendium",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
