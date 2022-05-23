@@ -70,11 +70,6 @@
       "name": "scene-packer",
       "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
       "type": "module"
-    },
-    {
-      "name": "lib-wrapper",
-      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
-      "type": "module"
     }
   ],
   "url": "https://github.com/CelestianGC/osric-compendium",
