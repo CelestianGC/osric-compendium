@@ -73,7 +73,7 @@
     }
   ],
   "url": "https://github.com/CelestianGC/osric-compendium",
-  "manifest": "https://github.com/CelestianGC/osric-compendium/releases/download/0.0.0/module.json",
-  "download": "https://github.com/CelestianGC/osric-compendium/files/8750488/src.zip",
+  "manifest": "https://github.com/CelestianGC/osric-compendium/releases/download/0.0.1/module.json",
+  "download": "https://github.com/CelestianGC/osric-compendium/releases/download/0.0.1/osric-compendium.0.0.1.zip",
   "manifestPlusVersion": "1.2.0"
 }
