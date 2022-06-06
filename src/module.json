@@ -2,7 +2,7 @@
   "name": "osric-compendium",
   "title": "OSRIC Compendium",
   "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "9",
   "author": "John Smith",
@@ -13,53 +13,75 @@
   ],
   "packs": [
     {
-      "name": "maps",
-      "label": "OSRIC Compendium",
-      "path": "/packs/maps.db",
-      "entity": "Scene",
-      "type": "Scene"
-    },
-    {
-      "name": "actors",
-      "label": "OSRIC Compendium",
-      "path": "/packs/actors.db",
+      "name": "osric-gm-actor",
+      "label": "OSRIC GM Actors",
+      "path": "/packs/osric-gm-actor.db",
       "entity": "Actor",
       "type": "Actor"
     },
     {
-      "name": "journals",
-      "label": "OSRIC Compendium",
-      "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "name": "osric-pc-actor",
+      "label": "OSRIC PC Actors",
+      "path": "/packs/osric-pc-actor.db",
+      "entity": "Actor",
+      "type": "Actor"
     },
     {
-      "name": "items",
-      "label": "OSRIC Compendium",
-      "path": "/packs/items.db",
+      "name": "osric-gm-bundles",
+      "label": "OSRIC GM Bundles",
+      "path": "/packs/osric-gm-bundles.db",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "osric-pc-bundles",
+      "label": "OSRIC PC Bundles",
+      "path": "/packs/osric-pc-bundles.db",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "osric-gm-item",
+      "label": "OSRIC GM Items",
+      "path": "/packs/osric-gm-item.db",
       "entity": "Item",
       "type": "Item"
     },
     {
-      "name": "rolltables",
-      "label": "OSRIC Compendium",
-      "path": "/packs/rolltables.db",
+      "name": "osric-pc-item",
+      "label": "OSRIC PC Items",
+      "path": "/packs/osric-pc-item.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "osric-gm-journals",
+      "label": "OSRIC GM Journals",
+      "path": "/packs/osric-gm-journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "osric-pc-journals",
+      "label": "OSRIC PC Journals",
+      "path": "/packs/osric-pc-journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+
+    {
+      "name": "osric-gm-table",
+      "label": "OSRIC GM Tables",
+      "path": "/packs/osric-gm-table.db",
       "entity": "RollTable",
       "type": "RollTable"
     },
     {
-      "name": "macros",
-      "label": "OSRIC Compendium",
-      "path": "/packs/macros.db",
-      "entity": "Macro",
-      "type": "Macro"
-    },
-    {
-      "name": "playlists",
-      "label": "OSRIC Compendium",
-      "path": "/packs/playlists.db",
-      "entity": "Playlist",
-      "type": "Playlist"
+      "name": "osric-pc-table",
+      "label": "OSRIC PC Tables",
+      "path": "/packs/osric-pc-table.db",
+      "entity": "RollTable",
+      "type": "RollTable"
     }
   ],
   "esmodules": [
@@ -67,8 +89,8 @@
   ],
   "dependencies": [
     {
-      "name": "scene-packer",
-      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
       "type": "module"
     },
     {
