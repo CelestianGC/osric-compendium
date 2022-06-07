@@ -2,7 +2,7 @@
   "name": "osric-compendium",
   "title": "OSRIC Compendium",
   "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "9",
   "author": "John Smith",
@@ -30,15 +30,15 @@
       "name": "osric-gm-bundles",
       "label": "OSRIC GM Bundles",
       "path": "/packs/osric-gm-bundles.db",
-      "entity": "Actor",
-      "type": "Actor"
+      "entity": "Item",
+      "type": "Item"
     },
     {
       "name": "osric-pc-bundles",
       "label": "OSRIC PC Bundles",
       "path": "/packs/osric-pc-bundles.db",
-      "entity": "Actor",
-      "type": "Actor"
+      "entity": "Item",
+      "type": "Item"
     },
     {
       "name": "osric-gm-item",
