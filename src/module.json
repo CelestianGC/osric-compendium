@@ -2,10 +2,22 @@
   "name": "osric-compendium",
   "title": "OSRIC Compendium",
   "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
-  "version": "1.0.6",
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "9",
+  "version": "1.0.7",
   "author": "John Smith",
+  "id": "osric-compendium",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.284"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "osric",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },  
   "authors": [
     {
       "name": "John Smith"
