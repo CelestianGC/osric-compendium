@@ -1,13 +1,11 @@
 {
-  "name": "osric-compendium",
   "title": "OSRIC Compendium",
   "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
-  "version": "1.0.7",
+  "version": "2022.09.15",
   "author": "John Smith",
   "id": "osric-compendium",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10.284"
+    "minimum": "10"
   },
   "relationships": {
     "systems": [
@@ -24,6 +22,15 @@
     }
   ],
   "packs": [
+    {
+      "name": "adventures",
+      "label": "OSRIC Adventure",
+      "path": "/packs/osric.db",
+      "entity": "Adventure",
+      "type": "Adventure",
+      "flags": {},
+      "system": "osric"
+    },    
     {
       "name": "osric-gm-actor",
       "label": "OSRIC GM Actors",
@@ -102,12 +109,12 @@
   "dependencies": [
     {
       "name": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
+      "manifest": "https://github.com/earlSt1/vtt-compendium-folders/blob/09x-update/module.json",
       "type": "module"
     },
     {
       "name": "lib-wrapper",
-      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/blob/master/module.json",
       "type": "module"
     }
   ],
