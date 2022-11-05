@@ -1,7 +1,7 @@
 {
   "title": "OSRIC Compendium",
   "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
-  "version": "2022.09.15",
+  "version": "2022.11.05",
   "author": "John Smith",
   "id": "osric-compendium",
   "compatibility": {
@@ -44,63 +44,6 @@
       "path": "/packs/osric-pc-actor.db",
       "entity": "Actor",
       "type": "Actor"
-    },
-    {
-      "name": "osric-gm-bundles",
-      "label": "OSRIC GM Bundles",
-      "path": "/packs/osric-gm-bundles.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "osric-pc-bundles",
-      "label": "OSRIC PC Bundles",
-      "path": "/packs/osric-pc-bundles.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "osric-gm-item",
-      "label": "OSRIC GM Items",
-      "path": "/packs/osric-gm-item.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "osric-pc-item",
-      "label": "OSRIC PC Items",
-      "path": "/packs/osric-pc-item.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "osric-gm-journals",
-      "label": "OSRIC GM Journals",
-      "path": "/packs/osric-gm-journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "osric-pc-journals",
-      "label": "OSRIC PC Journals",
-      "path": "/packs/osric-pc-journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
-    },
-
-    {
-      "name": "osric-gm-table",
-      "label": "OSRIC GM Tables",
-      "path": "/packs/osric-gm-table.db",
-      "entity": "RollTable",
-      "type": "RollTable"
-    },
-    {
-      "name": "osric-pc-table",
-      "label": "OSRIC PC Tables",
-      "path": "/packs/osric-pc-table.db",
-      "entity": "RollTable",
-      "type": "RollTable"
     }
   ],
   "esmodules": [
