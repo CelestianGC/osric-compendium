@@ -2,11 +2,11 @@ The OSRIC Compendium module content (class/race/items/actors/etc...) is included
 
 https://github.com/CelestianGC/osric-compendium
 
-Manifest to install the module:
+Manifest URL to install the module:
 
 https://github.com/CelestianGC/osric-compendium/releases/latest/download/module.json
 
-Paste the manifest install the Manifest URL and click Install
+Paste the Manifest URL and click Install
 
 ![image](https://user-images.githubusercontent.com/3953802/201452338-f5cccb48-dca2-4463-be98-5281ad008363.png)
 
