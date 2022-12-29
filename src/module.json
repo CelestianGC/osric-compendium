@@ -29,23 +29,14 @@
       "type": "Adventure",
       "flags": {},
       "system": "osric",
-      "private": false
+      "private": true
     },
     {
       "name": "osric-gm-actor",
       "label": "OSRIC GM Actors",
       "path": "/packs/osric-gm-actor.db",
       "type": "Actor",
-      "private": false,
-      "system": "osric",
-      "flags": {}
-    },
-    {
-      "name": "osric-pc-actor",
-      "label": "OSRIC PC Actors",
-      "path": "/packs/osric-pc-actor.db",
-      "type": "Actor",
-      "private": false,
+      "private": true,
       "system": "osric",
       "flags": {}
     }
