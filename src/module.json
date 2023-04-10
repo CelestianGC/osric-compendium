@@ -1,7 +1,7 @@
 {
   "title": "OSRIC Compendium",
   "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
-  "version": "2023.04.01",
+  "version": "2023.04.02",
   "id": "osric-compendium",
   "compatibility": {
     "minimum": "10"
