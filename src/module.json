@@ -12,7 +12,7 @@
         "id": "osric",
         "type": "system",
         "compatibility": {
-          "minimum": "2023.04.01"
+          "minimum": "2023.04.23"
         }
       }
     ]
