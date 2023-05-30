@@ -1,7 +1,7 @@
 {
   "title": "OSRIC Compendium",
   "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
-  "version": "2023.05.03",
+  "version": "2023.05.29",
   "id": "osric-compendium",
   "compatibility": {
     "minimum": "10"
@@ -42,6 +42,15 @@
       "name": "osric-gm-actor",
       "label": "OSRIC GM Actors",
       "path": "/packs/osric-gm-actor.db",
+      "type": "Actor",
+      "private": true,
+      "system": "ars",
+      "flags": {}
+	},
+    {
+      "name": "osric-pc-actor",
+      "label": "OSRIC PC Actors",
+      "path": "/packs/osric-pc-actor.db",
       "type": "Actor",
       "private": true,
       "system": "ars",
