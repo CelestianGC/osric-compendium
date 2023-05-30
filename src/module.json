@@ -1,6 +1,6 @@
 {
   "title": "OSRIC Compendium",
-  "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
+  "description": "OSRIC Compendium for use with Foundry Advanced Roleplaying System ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
   "version": "2023.05.29",
   "id": "osric-compendium",
   "compatibility": {
@@ -12,7 +12,7 @@
         "id": "ars",
         "type": "system",
         "compatibility": {
-          "minimum": "2023.05.03"
+          "minimum": "2023.05.13"
         }
       }
     ]
