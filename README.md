@@ -1,6 +1,8 @@
 The OSRIC Compendium module content (class/race/items/actors/etc...) is included through a module found here.
 
+
 https://github.com/CelestianGC/osric-compendium
+
 
 Manifest URL to install the module:
 
